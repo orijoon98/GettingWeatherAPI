@@ -1,2 +1,2 @@
 # GettingWeatherAPI
-openWeather api 받아보기
+openWeatherMap api 받아보기
