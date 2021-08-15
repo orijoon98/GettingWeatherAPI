@@ -14,6 +14,8 @@
 		DAAAFD0926C95FBA00CBF4A7 /* TestWeatherAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAAAFD0726C95FBA00CBF4A7 /* TestWeatherAPI.xcdatamodeld */; };
 		DAAAFD0B26C95FBC00CBF4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAAFD0A26C95FBC00CBF4A7 /* Assets.xcassets */; };
 		DAAAFD0E26C95FBC00CBF4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAAFD0C26C95FBC00CBF4A7 /* LaunchScreen.storyboard */; };
+		DAAAFD1626C973C800CBF4A7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAFD1526C973C800CBF4A7 /* Weather.swift */; };
+		DAAAFD1826C976AD00CBF4A7 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAFD1726C976AD00CBF4A7 /* WeatherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DAAAFD0A26C95FBC00CBF4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAAAFD0D26C95FBC00CBF4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAAAFD0F26C95FBC00CBF4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAAFD1526C973C800CBF4A7 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		DAAAFD1726C976AD00CBF4A7 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				DAAAFD0C26C95FBC00CBF4A7 /* LaunchScreen.storyboard */,
 				DAAAFD0F26C95FBC00CBF4A7 /* Info.plist */,
 				DAAAFD0726C95FBA00CBF4A7 /* TestWeatherAPI.xcdatamodeld */,
+				DAAAFD1526C973C800CBF4A7 /* Weather.swift */,
+				DAAAFD1726C976AD00CBF4A7 /* WeatherService.swift */,
 			);
 			path = TestWeatherAPI;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				DAAAFD0926C95FBA00CBF4A7 /* TestWeatherAPI.xcdatamodeld in Sources */,
 				DAAAFCFF26C95FBA00CBF4A7 /* AppDelegate.swift in Sources */,
 				DAAAFD0126C95FBA00CBF4A7 /* SceneDelegate.swift in Sources */,
+				DAAAFD1826C976AD00CBF4A7 /* WeatherService.swift in Sources */,
+				DAAAFD1626C973C800CBF4A7 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
